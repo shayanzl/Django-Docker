@@ -1,4 +1,3 @@
-# a Django+Docker+Ci/CD course represented by the "DevOps Hobbies" channel on youtube
 # django-ci-cd-NexusRegistry
 
 ## Generate Treafik pass
