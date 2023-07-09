@@ -1,4 +1,4 @@
-# django-ci-cd-NexusRegistry
+# django-docker-ci-cd
 
 ## Generate Treafik pass
 ```bash
