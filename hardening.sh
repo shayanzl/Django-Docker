@@ -214,10 +214,11 @@ systemctl is-active --quiet sshd && echo -e "\e[1m \e[96m sshd service: \e[30;48
 }
 
 #Copy Public Key -------------------------------------------
-#cat <<EOT >> /root/.ssh/authorized_keys
-# AmirBahador
+cat <<EOT >> /root/.ssh/authorized_keys
+# shayanzy
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDOaT1IqYeq0SxZ+XN+xM3r/C+Npggyy9YFYPrJ1VRM0Zmv3QgeDIdcXi/ANG2ISxIFmYIRtRVb8nLyotHFbtaMtTUIpch4Pd+qkmnZPKBTmqrLV0IkHoML8N19CcfzG0/1HKnbcK63M1oO3I5nO+Bqel0V/KWtq2GBQlRKL1JTCsU6QknEBlwkzvqDDIMt+WfrAPIWTAuGj7Sj1H8eM3NfYeMzANv5wXOSp9e7/NzrnwoZheLPuwmnj92hdn5HZq2cD2Up2yVrYorcrnWctVG82i9SUOdPXWlKa+dpZ8Tgg2xVW+b7Utz7IBWry0lME/m8qryVvVM2ELlJmdJRGnsTVZbxwr1klLJzpv0Vu9fnzZ0nR9lKrSD96G7e8ujq+uAzT52GGLoQJr7n4BKgW2Khlxhnyz/LtcBdlrpIPlQVxoNfQFaYhBtoBpOXuoCg7UtDsEABgKKSO01JRvRN2L6j48WofB5ixcRkjMazfm6CLy45kXNwRmjK8T5dVNnDLf0= shayanzy@shayans-MBP
 # ssh-rsa YOURSSH KEY
-#EOT
+EOT
 
 # fail2ban config -----------------------------------------
 cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
